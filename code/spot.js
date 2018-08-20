@@ -3,7 +3,7 @@ const Spotify = require("node-spotify-api");
 const keys = require("./keys");
 const spotify = new Spotify(keys.spotify);
 const fs = require("fs");
-const request = require("request");
+
 
 //export spotify search function
 module.exports.spotifySearch = (songTitle) => {
@@ -20,7 +20,7 @@ module.exports.spotifySearch = (songTitle) => {
     spotify.search({
         type: 'track',    //type is song track
         query: songTitle  //use the songTitle variable
-    }, function (err, data) {
+    },  (err, data) => {
         if (err) { //check for errors
             return console.log('Error occurred: ' + err);
         }

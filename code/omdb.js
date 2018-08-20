@@ -1,18 +1,20 @@
 require("dotenv").config();
-const Spotify = require("node-spotify-api");
-const keys = require("./keys");
-const spotify = new Spotify(keys.spotify);
 const fs = require("fs");
 const request = require("request");
-const moment = require('moment');
+
 
 module.exports.movieSearch = (movieName) => {
-
-
+//if there is no argument
+    if (!movieName) {
+        movieName = "Taxi Driver"; //default to taxi driver
+    } else {
+        movieName = process.argv[3]
+    }
     let omdb = `http://www.omdbapi.com/?t=${movieName}&plot=full&tomatoes=true&apikey=trilogy`
 
+
     //request to omdb
-    request(omdb, function (error, response, body) {
+    request(omdb, (error, response, body) => {
         //if error and response status code is 200 
         if (error && response.statusCode === 200) {
             //do this
