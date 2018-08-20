@@ -6,17 +6,22 @@ const fs = require("fs");
 const request = require("request");
 const moment = require('moment');
 const spotSearch = require("./spot.js");
+const omdbSearch = require("./omdb.js");
 
 
 
 //put the second argument into a variable
 let cmd = process.argv[2];
-
+let arg2 = process.argv[3]
 //switch statement to check second argument and decide what api to call to
 switch (cmd) {
   case "spotify-this-song":
-  console.log('WORKING')
-    spotSearch.spotifySearch();
+    console.log('SPOTIFY SEARCH')
+    spotSearch.spotifySearch(arg2);
+    break;
+  case "movie-this":
+    console.log(`OMDB SWITCH`);
+    omdbSearch.movieSearch(arg2);
     break;
 
 }

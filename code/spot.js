@@ -6,9 +6,9 @@ const fs = require("fs");
 const request = require("request");
 
 //export spotify search function
-module.exports.spotifySearch = () => {
+module.exports.spotifySearch = (songTitle) => {
 
-    let songTitle = process.argv[3]; //grab the argument in the 3rd index spot
+    // let songTitle = process.argv[3]; //grab the argument in the 3rd index spot
     console.log(songTitle)
     //if there is no argument
     if (!songTitle) {
@@ -28,7 +28,7 @@ module.exports.spotifySearch = () => {
         //put this into a variable so we don't have to write it out 4 times
         let dataSearch = data.tracks.items[0];
         //setting up our console logs
-        console.log(`Spotify song infomation results`);
+        console.log(`Spotify song information results`);
         console.log(`---------------------------------`);
         console.log(`Song Title:  ${dataSearch.name}`);
         console.log(`Artist name:  ${dataSearch.album.artists[0].name}`);
