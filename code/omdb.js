@@ -8,7 +8,7 @@ const movieSearch = (cmd, movieName) => {
     if (!movieName && cmd === "movie-this") {
         movieName = "Taxi Driver"; //default to taxi driver
     } else {
-        movieName = process.argv[3]
+        movieName;
     }
 
     let omdb = `http://www.omdbapi.com/?t=${movieName}&plot=full&tomatoes=true&apikey=trilogy`
@@ -39,7 +39,7 @@ const movieSearch = (cmd, movieName) => {
         } else {
             //if there is an error console.log it
             console.log(`This is an ERROR: ${error}`);
-            
+
 
         }
     });

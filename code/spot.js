@@ -8,7 +8,7 @@ const fs = require("fs");
 
 const spotifySearch = (cmd, songTitle) => {
 
-    console.log(`Song Title: ${songTitle} Command: ${cmd}`);
+    // console.log(`Song Title: ${songTitle} Command: ${cmd}`);
     //if there is no argument AND command is spotify-this-song
     if (!songTitle && cmd === "spotify-this-song") {
         songTitle = "The Sign Ace of Base"; //default to 

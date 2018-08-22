@@ -24,7 +24,7 @@ const getTweets = (cmd) => {
                 console.log(` `);
                 fs.appendFile('log.txt', (`\r\n <<<<<<<<<~Tweet # ${i}~>>>>>>>>>>>>>> \r\n Command used: "my-tweets" \r\n Tweet: ${tweet} \r\n Date Created: ${tweetDate} \r\n`), function (error) {
                     if (error) {
-                        console.log(`Yous gots an error: ${error}`);
+                        console.log(`HEY YOU GOT an error: ${error}`);
                     }
                 })
             }

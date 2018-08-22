@@ -20,7 +20,7 @@ let arg2 = process.argv[3];
 const switchFunc = (cmd, arg2) => {
   //switch statement to check argument and decide what api to call to
   switch (cmd) {
-    case "spotify-this-song":
+    case "spotify-this-song": 
       console.log(`SPOTIFY SWITCH`)
       spotSearch.spotifySearch(cmd, arg2);
       break;
@@ -35,6 +35,15 @@ const switchFunc = (cmd, arg2) => {
     case "do-what-it-says":
       console.log(`DO WHAT IT SAYS SWITCH`);
       doWhat.doWhat();
+      break;
+    default: //if no arguments given
+      console.log(`<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>`)
+      console.log(`<~~~> Couldn't find user command, please use on of the following. <~~~>`);
+      console.log(`<~~~> For Spotify <~~> use <~~> spotify-this-song <~~~>`);
+      console.log(`<~~~> For Twiiter <~~> use <~~> my-tweets <~~~>`);
+      console.log(`<~~~> For OMDB <~~> use <~~> movie-this <~~~>`);
+      console.log(`<~~~> For Random <~~> use <~~> do-what-it-says <~~~>`);
+      console.log(`<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>`);
       break;
   }
 };
