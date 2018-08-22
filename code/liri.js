@@ -9,6 +9,7 @@ const request = require("request");
 const spotSearch = require("./spot.js");
 const omdbSearch = require("./omdb.js");
 const getTweets = require("./twit.js");
+const doWhat = require("./dowhat.js");
 
 
 //put the arguments into variables
@@ -33,18 +34,10 @@ const switchFunc = (cmd, arg2) => {
       break;
     case "do-what-it-says":
       console.log(`DO WHAT IT SAYS SWITCH`);
-      fs.readFile('random.txt', 'utf8', (error, data) => {
-        if (!error) {
-          let ran_txt = data.split(',');
-          console.log(ran_txt)
-          let cmd = ran_txt[0];
-          let arg2 = ran_txt[1];
-          
-          spotSearch.spotifySearch(cmd, arg2);
-        }
-      })
+      doWhat.doWhat();
       break;
   }
-}
+};
 
+//get the whole thing s
 switchFunc(cmd, arg2);

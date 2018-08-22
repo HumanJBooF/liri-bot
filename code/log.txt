@@ -27,3 +27,230 @@
  Preview Url: null 
  Album Name: Happy Now 
  ~~~~~~~~END~~~~~~~
+ ~~~~~~SPOTIFY INFO~~~~~~~~ 
+ Command used: "spotify-this-search" 
+ Song Title: I Want It That Way 
+ Artist Name: Backstreet Boys 
+ Preview Url: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=dc69ba63d5024941a86a6292bfe63bca 
+ Album Name: The Hits--Chapter One 
+ ~~~~~~~~END~~~~~~~
+ ###########OMDB########## 
+ Command used: "movie-this" 
+  Movie Title: Goodfellas 
+ Release Year: 1990 
+ Rating: Internet Movie Database - 8.7/10 
+ Rating: Rotten Tomatoes - 96% 
+ Country of origin: USA 
+ Language: English, Italian 
+ Plot: Henry Hill might be a small time gangster, who may have taken part in a robbery with Jimmy Conway and Tommy De Vito, two other gangsters who might have set their sights a bit higher. His two partners could kill off everyone else involved in the robbery, and slowly start to think about climbing up through the hierarchy of the Mob. Henry, however, might be badly affected by his partners' success, but will he consider stooping low enough to bring about the downfall of Jimmy and Tommy? 
+ Actors: Robert De Niro, Ray Liotta, Joe Pesci, Lorraine Bracco 
+ ##############END########## 
+
+ <<<<<<<<<~Tweet # 0~>>>>>>>>>>>>>> 
+ Command used: "my-tweets" 
+ Tweet: @flow_rezzz haha yeah that pool was stacked 
+ Date Created: Wed Oct 05 00:15:51 +0000 2016 
+
+ <<<<<<<<<~Tweet # 1~>>>>>>>>>>>>>> 
+ Command used: "my-tweets" 
+ Tweet: @flow_rezzz gotta love dem technical wins haha 
+ Date Created: Wed Oct 05 00:14:06 +0000 2016 
+
+ <<<<<<<<<~Tweet # 2~>>>>>>>>>>>>>> 
+ Command used: "my-tweets" 
+ Tweet: @SpineAcht well at least you went down to someone good haha I haven't played since we last played I gotta get back on it 
+ Date Created: Wed Oct 05 00:13:35 +0000 2016 
+
+ <<<<<<<<<~Tweet # 3~>>>>>>>>>>>>>> 
+ Command used: "my-tweets" 
+ Tweet: @flow_rezzz who did you beat/lose to in uni? 
+ Date Created: Wed Oct 05 00:12:41 +0000 2016 
+
+ <<<<<<<<<~Tweet # 4~>>>>>>>>>>>>>> 
+ Command used: "my-tweets" 
+ Tweet: @SpineAcht wish I could have made it dude... how did you do? 
+ Date Created: Wed Oct 05 00:12:09 +0000 2016 
+
+ <<<<<<<<<~Tweet # 5~>>>>>>>>>>>>>> 
+ Command used: "my-tweets" 
+ Tweet: @flow_rezzz how the hell did you do?!? 
+ Date Created: Wed Oct 05 00:11:20 +0000 2016 
+
+ <<<<<<<<<~Tweet # 6~>>>>>>>>>>>>>> 
+ Command used: "my-tweets" 
+ Tweet: I never tweet, I'm gonna start fucking tweeting damn it 
+ Date Created: Tue Sep 27 04:03:31 +0000 2016 
+
+ <<<<<<<<<~Tweet # 7~>>>>>>>>>>>>>> 
+ Command used: "my-tweets" 
+ Tweet: Uniel HumanJBoof (Waldstein) Vs. Spinach (Carmine) Netplay on steam: https://t.co/vu7QxlgLCy via @YouTube 
+ Date Created: Wed Aug 10 08:22:35 +0000 2016 
+
+ <<<<<<<<<~Tweet # 8~>>>>>>>>>>>>>> 
+ Command used: "my-tweets" 
+ Tweet: Uniel netplay on steam Waldstein (HumanJBoof) Vs. Hyde (Canister): https://t.co/Wh3lm5oDtT via @YouTube 
+ Date Created: Wed Aug 10 03:28:35 +0000 2016 
+
+ <<<<<<<<<~Tweet # 9~>>>>>>>>>>>>>> 
+ Command used: "my-tweets" 
+ Tweet: Blade Arcus from Shining Sakuya Combo: https://t.co/fH9zUogSU0 via @YouTube 
+ Date Created: Sun Aug 07 01:40:32 +0000 2016 
+
+ <<<<<<<<<~Tweet # 10~>>>>>>>>>>>>>> 
+ Command used: "my-tweets" 
+ Tweet: RT @ArcSystemWorksU: #UNIEL fans unite! We are giving away 3 Steam copies of Under Night Inbirth Exe Late. Just RT this &amp; Like our page htt… 
+ Date Created: Wed Aug 03 22:00:24 +0000 2016 
+
+ <<<<<<<<<~Tweet # 11~>>>>>>>>>>>>>> 
+ Command used: "my-tweets" 
+ Tweet: @zefurr @Mishakeet its live 
+ Date Created: Mon Jul 18 05:16:40 +0000 2016 
+
+ <<<<<<<<<~Tweet # 12~>>>>>>>>>>>>>> 
+ Command used: "my-tweets" 
+ Tweet: @StrongestKuma LOL stop it 
+ Date Created: Mon Jul 18 05:09:30 +0000 2016 
+
+ <<<<<<<<<~Tweet # 13~>>>>>>>>>>>>>> 
+ Command used: "my-tweets" 
+ Tweet: @Argenrost @RisingThunder aww man its for real dead? 
+ Date Created: Thu Mar 10 17:06:33 +0000 2016 
+
+ <<<<<<<<<~Tweet # 14~>>>>>>>>>>>>>> 
+ Command used: "my-tweets" 
+ Tweet: Grim Dawn Origin of the Slith Quest Elite: https://t.co/Vrd1Wh0vYf via @YouTube 
+ Date Created: Thu Mar 03 17:48:00 +0000 2016 
+
+ <<<<<<<<<~Tweet # 15~>>>>>>>>>>>>>> 
+ Command used: "my-tweets" 
+ Tweet: gottt it! 
+@SpineAcht 
+ Date Created: Wed Mar 02 14:59:25 +0000 2016 
+
+ <<<<<<<<<~Tweet # 16~>>>>>>>>>>>>>> 
+ Command used: "my-tweets" 
+ Tweet: nvm cant find you, find me at humanjboof lol @SpineAcht 
+ Date Created: Wed Mar 02 14:55:36 +0000 2016 
+
+ <<<<<<<<<~Tweet # 17~>>>>>>>>>>>>>> 
+ Command used: "my-tweets" 
+ Tweet: yooo spine i didnt know you were on steam... im gonna find you boyyyy! @SpineAcht 
+ Date Created: Wed Mar 02 14:54:42 +0000 2016 
+
+ <<<<<<<<<~Tweet # 18~>>>>>>>>>>>>>> 
+ Command used: "my-tweets" 
+ Tweet: Grim Dawn Darius Cronley Elite: https://t.co/se0XFussxi via @YouTube 
+ Date Created: Wed Mar 02 02:54:01 +0000 2016 
+
+ <<<<<<<<<~Tweet # 19~>>>>>>>>>>>>>> 
+ Command used: "my-tweets" 
+ Tweet: Got that #gamestop hookup ;) #sfv #streetfighterv #ryu add me on steam for some gammmmesssssssss… https://t.co/R30o3coQkT 
+ Date Created: Fri Feb 19 22:59:40 +0000 2016 
+
+ ~~~~~~SPOTIFY INFO~~~~~~~~ 
+ Command used: "spotify-this-search" 
+ Song Title: I Want It That Way 
+ Artist Name: Backstreet Boys 
+ Preview Url: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=dc69ba63d5024941a86a6292bfe63bca 
+ Album Name: The Hits--Chapter One 
+ ~~~~~~~~END~~~~~~~
+ <<<<<<<<<~Tweet # 0~>>>>>>>>>>>>>> 
+ Command used: "my-tweets" 
+ Tweet: @flow_rezzz haha yeah that pool was stacked 
+ Date Created: Wed Oct 05 00:15:51 +0000 2016 
+
+ <<<<<<<<<~Tweet # 1~>>>>>>>>>>>>>> 
+ Command used: "my-tweets" 
+ Tweet: @flow_rezzz gotta love dem technical wins haha 
+ Date Created: Wed Oct 05 00:14:06 +0000 2016 
+
+ <<<<<<<<<~Tweet # 2~>>>>>>>>>>>>>> 
+ Command used: "my-tweets" 
+ Tweet: @SpineAcht well at least you went down to someone good haha I haven't played since we last played I gotta get back on it 
+ Date Created: Wed Oct 05 00:13:35 +0000 2016 
+
+ <<<<<<<<<~Tweet # 3~>>>>>>>>>>>>>> 
+ Command used: "my-tweets" 
+ Tweet: @flow_rezzz who did you beat/lose to in uni? 
+ Date Created: Wed Oct 05 00:12:41 +0000 2016 
+
+ <<<<<<<<<~Tweet # 4~>>>>>>>>>>>>>> 
+ Command used: "my-tweets" 
+ Tweet: @SpineAcht wish I could have made it dude... how did you do? 
+ Date Created: Wed Oct 05 00:12:09 +0000 2016 
+
+ <<<<<<<<<~Tweet # 5~>>>>>>>>>>>>>> 
+ Command used: "my-tweets" 
+ Tweet: @flow_rezzz how the hell did you do?!? 
+ Date Created: Wed Oct 05 00:11:20 +0000 2016 
+
+ <<<<<<<<<~Tweet # 6~>>>>>>>>>>>>>> 
+ Command used: "my-tweets" 
+ Tweet: I never tweet, I'm gonna start fucking tweeting damn it 
+ Date Created: Tue Sep 27 04:03:31 +0000 2016 
+
+ <<<<<<<<<~Tweet # 7~>>>>>>>>>>>>>> 
+ Command used: "my-tweets" 
+ Tweet: Uniel HumanJBoof (Waldstein) Vs. Spinach (Carmine) Netplay on steam: https://t.co/vu7QxlgLCy via @YouTube 
+ Date Created: Wed Aug 10 08:22:35 +0000 2016 
+
+ <<<<<<<<<~Tweet # 8~>>>>>>>>>>>>>> 
+ Command used: "my-tweets" 
+ Tweet: Uniel netplay on steam Waldstein (HumanJBoof) Vs. Hyde (Canister): https://t.co/Wh3lm5oDtT via @YouTube 
+ Date Created: Wed Aug 10 03:28:35 +0000 2016 
+
+ <<<<<<<<<~Tweet # 9~>>>>>>>>>>>>>> 
+ Command used: "my-tweets" 
+ Tweet: Blade Arcus from Shining Sakuya Combo: https://t.co/fH9zUogSU0 via @YouTube 
+ Date Created: Sun Aug 07 01:40:32 +0000 2016 
+
+ <<<<<<<<<~Tweet # 10~>>>>>>>>>>>>>> 
+ Command used: "my-tweets" 
+ Tweet: RT @ArcSystemWorksU: #UNIEL fans unite! We are giving away 3 Steam copies of Under Night Inbirth Exe Late. Just RT this &amp; Like our page htt… 
+ Date Created: Wed Aug 03 22:00:24 +0000 2016 
+
+ <<<<<<<<<~Tweet # 11~>>>>>>>>>>>>>> 
+ Command used: "my-tweets" 
+ Tweet: @zefurr @Mishakeet its live 
+ Date Created: Mon Jul 18 05:16:40 +0000 2016 
+
+ <<<<<<<<<~Tweet # 12~>>>>>>>>>>>>>> 
+ Command used: "my-tweets" 
+ Tweet: @StrongestKuma LOL stop it 
+ Date Created: Mon Jul 18 05:09:30 +0000 2016 
+
+ <<<<<<<<<~Tweet # 13~>>>>>>>>>>>>>> 
+ Command used: "my-tweets" 
+ Tweet: @Argenrost @RisingThunder aww man its for real dead? 
+ Date Created: Thu Mar 10 17:06:33 +0000 2016 
+
+ <<<<<<<<<~Tweet # 14~>>>>>>>>>>>>>> 
+ Command used: "my-tweets" 
+ Tweet: Grim Dawn Origin of the Slith Quest Elite: https://t.co/Vrd1Wh0vYf via @YouTube 
+ Date Created: Thu Mar 03 17:48:00 +0000 2016 
+
+ <<<<<<<<<~Tweet # 15~>>>>>>>>>>>>>> 
+ Command used: "my-tweets" 
+ Tweet: gottt it! 
+@SpineAcht 
+ Date Created: Wed Mar 02 14:59:25 +0000 2016 
+
+ <<<<<<<<<~Tweet # 16~>>>>>>>>>>>>>> 
+ Command used: "my-tweets" 
+ Tweet: nvm cant find you, find me at humanjboof lol @SpineAcht 
+ Date Created: Wed Mar 02 14:55:36 +0000 2016 
+
+ <<<<<<<<<~Tweet # 17~>>>>>>>>>>>>>> 
+ Command used: "my-tweets" 
+ Tweet: yooo spine i didnt know you were on steam... im gonna find you boyyyy! @SpineAcht 
+ Date Created: Wed Mar 02 14:54:42 +0000 2016 
+
+ <<<<<<<<<~Tweet # 18~>>>>>>>>>>>>>> 
+ Command used: "my-tweets" 
+ Tweet: Grim Dawn Darius Cronley Elite: https://t.co/se0XFussxi via @YouTube 
+ Date Created: Wed Mar 02 02:54:01 +0000 2016 
+
+ <<<<<<<<<~Tweet # 19~>>>>>>>>>>>>>> 
+ Command used: "my-tweets" 
+ Tweet: Got that #gamestop hookup ;) #sfv #streetfighterv #ryu add me on steam for some gammmmesssssssss… https://t.co/R30o3coQkT 
+ Date Created: Fri Feb 19 22:59:40 +0000 2016 

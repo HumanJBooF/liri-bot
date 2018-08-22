@@ -13,7 +13,7 @@ const spotifySearch = (cmd, songTitle) => {
     if (!songTitle && cmd === "spotify-this-song") {
         songTitle = "The Sign Ace of Base"; //default to 
     } else {    // if not
-        songTitle = songTitle; //take the argument in the songTitle variable
+        songTitle; //take the argument in the songTitle variable
     }
     //search spotify
     spotify.search({
@@ -29,10 +29,12 @@ const spotifySearch = (cmd, songTitle) => {
         //setting up our console logs
         console.log(`Spotify song information results`);
         console.log(`---------------------------------`);
+        console.log(` `);
         console.log(`Song Title:  ${dataSearch.name}`);
         console.log(`Artist name:  ${dataSearch.album.artists[0].name}`);
         console.log(`Preview Url: ${dataSearch.preview_url}`);
         console.log(`Album Name: ${dataSearch.album.name}`);
+        console.log(` `);
         console.log(`---------------------------------`);
         fs.appendFile('log.txt', (`\r\n ~~~~~~SPOTIFY INFO~~~~~~~~ \r\n Command used: "spotify-this-search" \r\n Song Title: ${dataSearch.name} \r\n Artist Name: ${dataSearch.album.artists[0].name} \r\n Preview Url: ${dataSearch.preview_url} \r\n Album Name: ${dataSearch.album.name} \r\n ~~~~~~~~END~~~~~~~`), function (error) {
             if (error) throw error;
