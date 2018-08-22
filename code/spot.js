@@ -5,16 +5,15 @@ const spotify = new Spotify(keys.spotify);
 const fs = require("fs");
 
 
-//export spotify search function
-module.exports.spotifySearch = (songTitle) => {
 
-    // let songTitle = process.argv[3]; //grab the argument in the 3rd index spot
-    console.log(songTitle)
-    //if there is no argument
-    if (!songTitle) {
-        songTitle = "The Sign Ace of Base";
+const spotifySearch = (cmd, songTitle) => {
+
+    console.log(`Song Title: ${songTitle} Command: ${cmd}`);
+    //if there is no argument AND command is spotify-this-song
+    if (!songTitle && cmd === "spotify-this-song") {
+        songTitle = "The Sign Ace of Base"; //default to 
     } else {    // if not
-        songTitle = process.argv[3]; //take the argument in the songTitle variable
+        songTitle = songTitle; //take the argument in the songTitle variable
     }
     //search spotify
     spotify.search({
@@ -35,9 +34,10 @@ module.exports.spotifySearch = (songTitle) => {
         console.log(`Preview Url: ${dataSearch.preview_url}`);
         console.log(`Album Name: ${dataSearch.album.name}`);
         console.log(`---------------------------------`);
-        fs.appendFile('log.txt', (`\r\n ~~~~~~SPOTIFY INFO~~~~~~~~ \r\n Song Title: ${dataSearch.name} \r\n Artist Name: ${dataSearch.album.artists[0].name} \r\n Preview Url: ${dataSearch.preview_url} \r\n Album Name: ${dataSearch.album.name} \r\n ~~~~~~~~END~~~~~~~`), function (error) {
+        fs.appendFile('log.txt', (`\r\n ~~~~~~SPOTIFY INFO~~~~~~~~ \r\n Command used: "spotify-this-search" \r\n Song Title: ${dataSearch.name} \r\n Artist Name: ${dataSearch.album.artists[0].name} \r\n Preview Url: ${dataSearch.preview_url} \r\n Album Name: ${dataSearch.album.name} \r\n ~~~~~~~~END~~~~~~~`), function (error) {
             if (error) throw error;
         })
     });
 }
-
+//export spotifySearch function
+module.exports.spotifySearch = spotifySearch;
