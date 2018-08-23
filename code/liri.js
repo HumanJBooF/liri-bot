@@ -14,7 +14,7 @@ const doWhat = require("./dowhat.js");
 
 //put the arguments into variables
 let cmd = process.argv[2];
-let arg2 = process.argv[3];
+let arg2 = process.argv.slice(3).join(" ");
 
 //function takes to parameters(arguments) and sends them through the switch statement
 const switchFunc = (cmd, arg2) => {
