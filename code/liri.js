@@ -20,7 +20,7 @@ let arg2 = process.argv.slice(3).join(" ");
 const switchFunc = (cmd, arg2) => {
   //switch statement to check argument and decide what api to call to
   switch (cmd) {
-    case "spotify-this-song": 
+    case "spotify-this-song":
       console.log(`SPOTIFY SWITCH`)
       spotSearch.spotifySearch(cmd, arg2);
       break;

@@ -16,13 +16,18 @@ const getTweets = (cmd) => {
             for (let i = 0; i < tweets.length; i++) {
                 let tweet = tweets[i].text;
                 let tweetDate = tweets[i].created_at;
+                //put all data into array so we can console log it
+                let tweetData = [
+                    `<<<<<<<<<<<<<<~Tweet # ${i}~>>>>>>>>>>>>>>>`,
+                    ` `,
+                    `Tweet: ${tweet}`,
+                    `Created Date: ${tweetDate}`,
+                    ` `,
+                ].join(`\r\n`);
 
-                console.log(`<<<<<<<<<<<<<<~Tweet # ${i}~>>>>>>>>>>>>>>>`);
-                console.log(` `);
-                console.log(`Tweet: ${tweet}`);
-                console.log(`Created Date: ${tweetDate}`);
-                console.log(` `);
-                fs.appendFile('log.txt', (`\r\n <<<<<<<<<~Tweet # ${i}~>>>>>>>>>>>>>> \r\n Command used: "my-tweets" \r\n Tweet: ${tweet} \r\n Date Created: ${tweetDate} \r\n`), function (error) {
+                console.log(tweetData);
+                
+                fs.appendFile('log.txt', `\r\n Command used: my-tweets \r\n ${tweetData}`, function (error) {
                     if (error) {
                         console.log(`HEY YOU GOT an error: ${error}`);
                     }

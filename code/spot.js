@@ -19,24 +19,29 @@ const spotifySearch = (cmd, songTitle) => {
     spotify.search({
         type: 'track',    //type is song track
         query: songTitle  //use the songTitle variable
-    },  (err, data) => {
+    }, (err, data) => {
         if (err) { //check for errors
             return console.log('Error occurred: ' + err);
         }
 
         //put this into a variable so we don't have to write it out 4 times
         let dataSearch = data.tracks.items[0];
-        //setting up our console logs
-        console.log(`Spotify song information results`);
-        console.log(`---------------------------------`);
-        console.log(` `);
-        console.log(`Song Title:  ${dataSearch.name}`);
-        console.log(`Artist name:  ${dataSearch.album.artists[0].name}`);
-        console.log(`Preview Url: ${dataSearch.preview_url}`);
-        console.log(`Album Name: ${dataSearch.album.name}`);
-        console.log(` `);
-        console.log(`---------------------------------`);
-        fs.appendFile('log.txt', (`\r\n ~~~~~~SPOTIFY INFO~~~~~~~~ \r\n Command used: "spotify-this-search" \r\n Song Title: ${dataSearch.name} \r\n Artist Name: ${dataSearch.album.artists[0].name} \r\n Preview Url: ${dataSearch.preview_url} \r\n Album Name: ${dataSearch.album.name} \r\n ~~~~~~~~END~~~~~~~`), function (error) {
+        //put all data into array so we can console log it
+        let spotData = [
+            `Spotify song information results`,
+            `---------------------------------`,
+            ` `,
+            `- Song Title:  ${dataSearch.name}`,
+            `- Artist name:  ${dataSearch.album.artists[0].name}`,
+            `- Preview Url: ${dataSearch.preview_url}`,
+            `- Album Name: ${dataSearch.album.name}`,
+            ` `,
+            `---------------------------------`
+        ].join(`\r\n`);
+
+        console.log(spotData);
+        
+        fs.appendFile('log.txt', `\r\n Command used: spotify-this-song \r\n ${spotData}`, function (error) {
             if (error) throw error;
         })
     });
