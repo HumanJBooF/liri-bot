@@ -37,13 +37,18 @@ const switchFunc = (cmd, arg2) => {
       doWhat.doWhat();
       break;
     default: //if no arguments given
-      console.log(`<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>`)
-      console.log(`<~~~> Couldn't find user command, please use on of the following. <~~~>`);
-      console.log(`<~~~> For Spotify <~~> use <~~> spotify-this-song <~~~>`);
-      console.log(`<~~~> For Twiiter <~~> use <~~> my-tweets <~~~>`);
-      console.log(`<~~~> For OMDB <~~> use <~~> movie-this <~~~>`);
-      console.log(`<~~~> For Random <~~> use <~~> do-what-it-says <~~~>`);
-      console.log(`<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>`);
+      let showError = [
+        `<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>`,
+        `<~~~> Couldn't find user command, please use on of the following. <~~~>`,
+        `<~~~> For Spotify <~~> use <~~> spotify-this-song <~~~>`,
+        `<~~~> For Twiiter <~~> use <~~> my-tweets <~~~>`,
+        `<~~~> For OMDB <~~> use <~~> movie-this <~~~>`,
+        `<~~~> For Random <~~> use <~~> do-what-it-says <~~~>`,
+        `<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>`
+      ].join(`\r\n`);
+
+      console.log(showError);
+
       break;
   }
 };
