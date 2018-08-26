@@ -21,6 +21,7 @@
 * NPM dotenv
 * NPM twitter
 * NPM request
+* NPM chalk
 
 ### Author
 
