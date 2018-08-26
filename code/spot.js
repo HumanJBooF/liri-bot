@@ -3,6 +3,7 @@ const Spotify = require("node-spotify-api");
 const keys = require("./keys");
 const spotify = new Spotify(keys.spotify);
 const fs = require("fs");
+const chalk = require("chalk");
 
 
 
@@ -21,7 +22,7 @@ const spotifySearch = (cmd, songTitle) => {
         query: songTitle  //use the songTitle variable
     }, (err, data) => {
         if (err) { //check for errors
-            return console.log('Error occurred: ' + err);
+            return console.log(chalk`{bgWhite.red ERROR: ${err}}`);
         }
 
         //put this into a variable so we don't have to write it out 4 times
@@ -30,17 +31,15 @@ const spotifySearch = (cmd, songTitle) => {
         let spotData = [
             `Spotify song information results`,
             `---------------------------------`,
-            ` `,
             `- Song Title:  ${dataSearch.name}`,
             `- Artist name:  ${dataSearch.album.artists[0].name}`,
             `- Preview Url: ${dataSearch.preview_url}`,
             `- Album Name: ${dataSearch.album.name}`,
-            ` `,
             `---------------------------------`
         ].join(`\r\n`);
 
-        console.log(spotData);
-        
+        console.log(chalk.bgRed.bold(spotData));
+
         fs.appendFile('log.txt', `\r\n Command used: spotify-this-song \r\n ${spotData}`, function (error) {
             if (error) throw error;
         })

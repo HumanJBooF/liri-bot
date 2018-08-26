@@ -3,6 +3,7 @@ const keys = require("./keys");
 const Twitter = require("twitter");
 const client = new Twitter(keys.twitter);
 const fs = require("fs");
+const chalk = require("chalk");
 
 
 const getTweets = (cmd) => {
@@ -25,16 +26,16 @@ const getTweets = (cmd) => {
                     ` `,
                 ].join(`\r\n`);
 
-                console.log(tweetData);
-                
+                console.log(chalk`{bgBlue.yellow.bold ${tweetData}}`);
+
                 fs.appendFile('log.txt', `\r\n Command used: my-tweets \r\n ${tweetData}`, function (error) {
                     if (error) {
-                        console.log(`HEY YOU GOT an error: ${error}`);
+                        console.log(chalk`{bgWhite.red HEY YOU GOT an error: ${error}}`);
                     }
                 })
             }
         } else {
-            console.log(`YOU GOT YOURSELF AN ERROR: ${error}`);
+            console.log(chalk`{bgWhite.red YOU GOT YOURSELF AN ERROR: ${error}}`);
         }
     });
 
